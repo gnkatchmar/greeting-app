@@ -9,11 +9,11 @@ describe('greeting', function() {
   var regex = /^Welcome to Node, 401 Student! Your temporary password is: /;
 
   it('starts with welcome phrase, greetName, password phrase', function() {
-    // tests the beginning of the greeting
+    // tests the greeting up to the password
     assert.match(greeting, regex);
   });
 
-  //Expected length of entire greeting based on '401 Student!'
+  //Expected length of greeting + password based on '401 Student!'
   it('greeting length', function() {
     var greetingLength = greet(greetName).length;
     assert.equal(greetingLength, 66);
