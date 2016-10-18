@@ -12,6 +12,6 @@ describe('greeting', function() {
 describe('greeting length', function() {
   it('greeting length', function() {
     var greetingLength = greet('401 Student!').length;
-      assert.equal(greetingLength, 29);
+    assert.equal(greetingLength, 29);
   });
 });
