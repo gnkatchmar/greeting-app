@@ -23,7 +23,9 @@
   },
   "homepage": "https://github.com/gnkatchmar/greeting-app#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^3.8.1",
-    "mocha": "^3.1.2"
+    "mocha": "^3.1.2",
+    "randomstring": "^1.1.5"
   }
 }
