@@ -9,7 +9,7 @@
   "scripts": {
     "pretest": "npm run lint",
     "test": "mocha",
-    "lint": "eslint .",
+    "lint": "eslint **/*js",
     "test:watch": "npm run test -- -w"
   },
   "repository": {
