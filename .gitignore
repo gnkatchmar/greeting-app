@@ -1,15 +1,13 @@
 # Logs
 logs
-*.log
 
-# Mac
-.DS_Store
+*.log
 
 # Secrets
 
 
 # Dependency directory
-node_modules/
+node_modules
 
 IDE
 .idea
